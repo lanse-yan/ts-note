@@ -16,5 +16,10 @@ Typescript支持Javascript的数据类型，并且还多了枚举类型.
 let list: number[] = [1,2,3];
 let list1: Array<number> = [1,2,3];
 ```
++ 元组类型：弥补了array只能存储一种类型数据的缺陷。只不过初始化时数据的类型顺序要保持一致。在python中也有元组的概念，但用法完全不一样。可以越界访问。
+``` Typescript
+let x: [string, number] = ['hello', 10]
+console.log(x[5].toString());
+```
 
 
