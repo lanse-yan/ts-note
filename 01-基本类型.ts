@@ -8,7 +8,7 @@ let binaryLiteral: number = 0b1010;
 let octalLiteral: number = 0o744;
 
 //string
-let name: string = 'bob';
+let name2: string = 'bob';
 let name1: string = `${name}1`;
 
 //array
@@ -17,4 +17,4 @@ let list1: Array<number> = [1,2,3];
 
 //tuple
 let x: [string, number] = ['hello', 10];
-console.log(x[5]);
+// console.log(x[5]);
